@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+.navbar {
+    line-height: 1;
+}
+
+.navbar__img {
+    float: left;
+}
+
+.navbar ul {
+    display: inline;
+    list-style: none;
+    float: right;
+    max-width: 700px;
+    margin-bottom: -1px;
+}
+
+.navbar li {
+    display: inline;
+    position: relative;
+    list-style: none;
+    margin-left: 6px;
+    float: left;
+}
+
+.navbar ul li a {
+    display: block;
+    color: #333;
+    text-decoration: none;
+    padding: 18px 7px 8px;
+    margin: 0 0px 1px;
+    border: 0;
+    outline: 0;
+    list-style-type: none;
+    box-sizing: border-box;
+    float: left;
+    font: 13px 'Open Sans',arial,sans-serif;
+}
+
+.navbar ul li#active a {
+    padding: 18px 7px 4px;
+    border-bottom: 4px solid #0370EA;
+    color: #000;
+}
+
+.navbar ul li a:hover {
+    padding: 18px 7px 4px;
+    border-bottom: 4px solid #0370EA;
+    color: #666;
+}
+
+
+#wsite-menus .wsite-menu {
+    background: #fff;
+    position: relative;
+}
+
+#wsite-menus .wsite-menu li a {
+    background: #F4F4F4;
+    border: none;
+    border-bottom: 1px solid #E8E8E8;
+    border-top: 1px solid white;
+    display: block;
+}
+
+#wsite-menus .wsite-menu li a:hover {
+    color: #0370EA;
+    background: #eee;
+}
+
+.wsite-social-item {
+    width: 28px;
+    height: 30px;
+    margin: 1px 0 0 4px;
+}

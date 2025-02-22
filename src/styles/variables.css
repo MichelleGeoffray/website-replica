@@ -10,7 +10,7 @@ body {
     --link-color: #646cff;
     --link-hover-color: var(--text-color);
     /* font */
-    --font-family: Arial, Helvetica, sans-serif;
+    --font-family: 'Open Sans', sans-serif;
 }
 
 /*

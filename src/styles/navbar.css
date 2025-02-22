@@ -1,5 +1,37 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+/* header styling */
+.header-wrap {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    height: 51px;
+    /*background-color: red;*/
+}
+.header-icons {
+    display: flex;
+    margin-top:20px;
+    /*background-color: blue;*/
+}
+.header-icons img {
+    width: 28px;
+    height: 30px;
+    margin: 1px 0 0 4px;   
+}
+
+/* navbar styling */
+.nav-wrap {
+    border-bottom: 1px solid #E8E8E8;
+    margin-bottom: 40px;
+    /*background-color: green;*/
+}
+
 .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0 auto;
     line-height: 1;
 }
 
@@ -15,7 +47,7 @@
     margin-bottom: -1px;
 }
 
-.navbar li {
+.navbar ul li {
     display: inline;
     position: relative;
     list-style: none;
@@ -47,29 +79,4 @@
     padding: 18px 7px 4px;
     border-bottom: 4px solid #0370EA;
     color: #666;
-}
-
-
-#wsite-menus .wsite-menu {
-    background: #fff;
-    position: relative;
-}
-
-#wsite-menus .wsite-menu li a {
-    background: #F4F4F4;
-    border: none;
-    border-bottom: 1px solid #E8E8E8;
-    border-top: 1px solid white;
-    display: block;
-}
-
-#wsite-menus .wsite-menu li a:hover {
-    color: #0370EA;
-    background: #eee;
-}
-
-.wsite-social-item {
-    width: 28px;
-    height: 30px;
-    margin: 1px 0 0 4px;
 }

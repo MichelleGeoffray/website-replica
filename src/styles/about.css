@@ -1,0 +1,40 @@
+.about-text h2 {
+    font-size: 22px;
+    padding: .8em 0 .2em 0;
+    line-height: 1.2;
+    font-weight: normal;
+    letter-spacing: -1px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.about-text p {
+    color: #000;
+    font: 13px/22px 'Open Sans',arial,sans-serif;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+}
+
+.about-gallery {
+    width: 96%;
+    height: 747px;
+    text-align: center;
+    background-color:blanchedalmond;
+}
+.about-gallery hr {
+    background: #ddd;
+    border-color: #ddd;
+    background-color: #ddd;
+    color: #ddd;
+    margin-top: 30px;
+    margin-bottom: 70px;
+    width: 100%;
+}
+
+.about-slideshow {
+    height: 596px;
+    margin-top: 50px;
+    background-color: burlywood;
+
+}

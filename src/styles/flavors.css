@@ -1,0 +1,47 @@
+.flavors-text {
+    text-align: center;
+    color: #777;
+    font: 13px/22px 'Open Sans',arial,sans-serif;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+
+.flavors-yearRound-images {
+    height: 1338px;
+    background-color: blanchedalmond;
+}
+
+.flavors-divider hr {
+    background: #ddd;
+    border-color: #ddd;
+    background-color: #ddd;
+    color: #ddd;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.flavors-seasonal-images {
+    height: 420px;
+    background-color: blanchedalmond;
+}
+
+.flavors-vegan-images {
+    height: 234px;
+    background-color: blanchedalmond;
+}
+
+.flavors-noSugar-images {
+    height: 186px;
+    background-color: blanchedalmond;
+}
+
+.flavors-italian-images {
+    height: 186px;
+    background-color: blanchedalmond;
+}
+
+.flavors-sherbet-images {
+    height: 163px;
+    background-color: blanchedalmond;
+}

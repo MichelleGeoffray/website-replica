@@ -1,0 +1,41 @@
+.location-map {
+    height:250px;
+    width: 465px;
+    float:left;
+    background-color: blanchedalmond;
+}
+
+.location-divider hr {
+    background: #ddd;
+    border-color: #ddd;
+    background-color: #ddd;
+    color: #ddd;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.location-text {
+    float:right;
+    height:280px;
+    width:495px;
+    text-align: center;
+}
+
+.location-text p {
+    color: #2a2a2a;
+}
+
+.location-text h2 {
+    font-size: 22px;
+    padding: .8em 0 .2em 0;
+    line-height: 1.2;
+    font-weight: normal;
+    letter-spacing: -1px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.location-sagamore {
+    margin-bottom: 450px;
+}

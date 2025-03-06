@@ -15,7 +15,8 @@ const PickUpDeliveryPage = () => {
 
       <div class="pickUp-text">
         <strong><font color="#5040ae">Please note</font></strong> - <font color="#2a2a2a">Items are subject to availability.&nbsp; See delivery partner website.&nbsp;</font>&nbsp;<font color="#000000">The delivery times vary and they may cancel orders or show we are closed when they do not have delivery drivers available.&nbsp; Also, the order minimums are set by the delivery company and not by Silver Dipper.</font>
-        </div>
+        <br/><br/>
+      </div>
     </div>
   );
 };

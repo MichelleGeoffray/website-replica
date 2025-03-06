@@ -4,6 +4,7 @@
     float:left;
     padding-top:50px;
     margin-bottom:70px;
+    max-width: 100%;
 }
 
 .shop-divider hr {
@@ -63,10 +64,12 @@
     width: 465px;
     float:left;
     margin-bottom:250px;
+    max-width: 100%;
 }
 
 .shop-button-toys {
     width: 465px;
     float:right;
     margin-bottom:250px;
+    max-width: 100%;
 }

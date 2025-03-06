@@ -1,4 +1,10 @@
 import '../styles/flavors.css';
+import YearRoundFlavors from "../components/YearRoundFlavors";
+import SeasonalFlavors from "../components/SeasonalFlavors";
+import VeganFlavors from "../components/VeganFlavors";
+import NoSugarFlavors from "../components/NoSugarFlavors";
+import ItalianIceFlavors from "../components/ItalianIceFlavors";
+import SherbetFlavors from "../components/SherbetFlavors";
 
 const FlavorsPage = () => {
   return (
@@ -16,7 +22,7 @@ const FlavorsPage = () => {
       <div className="flavors-yearRound">
         <h2><strong><font color="#2a2a2a" size="5">Year Round Flavors:</font></strong></h2>
         <div className="flavors-yearRound-images">
-          <h3><br/>images of each flavor and their name will be listed out here</h3>
+          <YearRoundFlavors />
         </div>
       </div>
 
@@ -27,6 +33,7 @@ const FlavorsPage = () => {
       <div className="flavors-seasonal">
         <h2><strong><font color="#2a2a2a" size="5">Seasonal Flavors:</font></strong></h2>
         <div className="flavors-seasonal-images">
+          <SeasonalFlavors />
         </div>
       </div>
       
@@ -37,6 +44,7 @@ const FlavorsPage = () => {
       <div className="flavors-vegan">
         <h2><strong><font color="#2a2a2a" size="5">Vegan Flavors:</font></strong></h2>
         <div className="flavors-vegan-images">
+          <VeganFlavors />
         </div>
       </div>
       
@@ -47,6 +55,7 @@ const FlavorsPage = () => {
       <div className="flavors-noSugar">
         <h2><strong><font color="#2a2a2a" size="5">No Sugar Added:</font></strong></h2>
         <div className="flavors-noSugar-images">
+          <NoSugarFlavors />
         </div>
       </div>
       
@@ -57,6 +66,7 @@ const FlavorsPage = () => {
       <div className="flavors-italian">
         <h2><strong><font color="#2a2a2a" size="5">Italian Ice (Non-Dairy, Non-Fat):</font></strong></h2>
         <div className="flavors-italian-images">
+          <ItalianIceFlavors />
         </div>
       </div>
       
@@ -67,6 +77,7 @@ const FlavorsPage = () => {
       <div className="flavors-sherbet">
         <h2><strong><font color="#2a2a2a" size="5">Sherbet (3% Dairy):</font></strong></h2>
         <div className="flavors-sherbet-images">
+          <SherbetFlavors />
         </div>
       </div>
 

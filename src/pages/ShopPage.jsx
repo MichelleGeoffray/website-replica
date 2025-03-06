@@ -33,9 +33,6 @@ const ShopPage = () => {
             <Link to="/"><img src={toysButton} alt="Toys Button" /></Link>
         </div>
       </div>
-
-
-
     </div>
   );
 };

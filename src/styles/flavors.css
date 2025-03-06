@@ -7,8 +7,7 @@
 }
 
 .flavors-yearRound-images {
-    height: 1338px;
-    background-color: blanchedalmond;
+    min-height: 1338px;
 }
 
 .flavors-divider hr {
@@ -22,26 +21,21 @@
 }
 
 .flavors-seasonal-images {
-    height: 420px;
-    background-color: blanchedalmond;
+    min-height: 350px;
 }
 
 .flavors-vegan-images {
-    height: 234px;
-    background-color: blanchedalmond;
+    min-height: 180px;
 }
 
 .flavors-noSugar-images {
-    height: 186px;
-    background-color: blanchedalmond;
+    min-height: 150px;
 }
 
 .flavors-italian-images {
-    height: 186px;
-    background-color: blanchedalmond;
+    min-height: 150px;
 }
 
 .flavors-sherbet-images {
-    height: 163px;
-    background-color: blanchedalmond;
+    min-height: 163px;
 }

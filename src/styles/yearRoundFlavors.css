@@ -1,0 +1,24 @@
+.flavors-container {
+    margin-top:20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+    gap: 20px;
+    justify-content: center;
+}
+
+.flavor-item {
+    text-align: center;
+}
+
+.flavor-item img {
+    width: 115px;
+    height: 115px;
+    object-fit: cover;
+    border-radius: 0px;
+}
+
+.flavor-text {
+    margin-top: 5px;
+    font-size: 12px;
+    font-weight: normal;
+}

@@ -1,11 +1,13 @@
 import '../styles/hoursLocation.css';
+import LeveeMap from "../components/LeveeMap";
+import SagamoreMap from "../components/SagamoreMap";
 
 const HoursLocationsPage = () => {
   return (
     <div className="container">
         <div className="location-levee">
             <div className="location-map">
-                <h3>THIS IS WHERE A MAP WILL GO</h3>
+                <LeveeMap />
             </div>
             <div className="location-text">
                 <h2><font size="5">Levee Store</font></h2>
@@ -23,7 +25,7 @@ const HoursLocationsPage = () => {
         </div>
         <div className="location-sagamore">
             <div className="location-map">
-                <h3>THIS IS WHERE A MAP WILL GO</h3>
+                <SagamoreMap />
             </div>
             <div className="location-text">
                 <h2><font size="5">Sagamore Parkway Store</font></h2>

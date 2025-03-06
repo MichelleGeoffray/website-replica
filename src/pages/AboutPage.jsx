@@ -1,4 +1,8 @@
+import ImageCarousel from "../components/ImageCarousel";
+import Slideshow from "../components/Slideshow";
+
 import '../styles/about.css';
+
 
 const AboutPage = () => {
   return (
@@ -10,7 +14,8 @@ const AboutPage = () => {
         <div className="about-gallery">
             <hr />
             <div className="about-slideshow">
-                <h3>THIS IS WHERE THE IMG SLIDESHOW WILL GO</h3>
+                <ImageCarousel />
+
             </div>
         </div>
         

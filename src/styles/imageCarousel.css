@@ -2,10 +2,11 @@
     display: flex;
     align-items: center;
     gap: 10px;
-    width: 870px;
+    width:100%;
     max-width: 900px;
     height: 596px;
     margin: auto;
+    justify-content: center;
 }
 
 /* Main Image Styling */
@@ -13,6 +14,7 @@
     position: relative;
     height: 100%;
     width: 870px;
+    height:596px;
 }
 
 .main-image {
@@ -20,6 +22,7 @@
     object-fit: cover;
     margin-left: auto;
     margin-right: auto;
+    
 }
 
 .main-image-btns-background {
@@ -27,7 +30,7 @@
     width: 135px;
     position: absolute;
     top: 5px;
-    left: 125px;
+    left: 175px;
     background-color: rgba(255, 255, 255, 0.5);
     border-radius: 3px;
 }
@@ -36,7 +39,7 @@
 .play-button {
     position: absolute;
     top: 10px;
-    left: 130px;
+    left: 180px;
     background: black;
     color: white;
     padding: 2px 7px;
@@ -61,11 +64,11 @@
 }
 
 .nav-button.left {
-    left: 200px;
+    left: 250px;
 }
 
 .nav-button.right {
-    left: 230px;
+    left: 280px;
 }
 
 .main-image-btns-background,
@@ -89,7 +92,7 @@
     flex-direction: column;
     align-items: center;
     width: 70px;
-    height: 596px;
+    max-height: 596px;
     position: relative;
 }
 

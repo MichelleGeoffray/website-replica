@@ -14,14 +14,16 @@
     font-weight: 400;
     margin: 0;
     padding: 0;
+    min-width: 100%;
 }
 
 .about-gallery {
-    width: 96%;
-    height: 747px;
-    text-align: center;
-    /* background-color:blanchedalmond; */
+    max-width: 100%;
+    width: 100%;
+    min-height: 747px;
+    text-align: center;   
 }
+
 .about-gallery hr {
     background: #ddd;
     border-color: #ddd;
@@ -30,10 +32,11 @@
     margin-top: 30px;
     margin-bottom: 70px;
     width: 100%;
+    max-width: 100%;
 }
 
 .about-slideshow {
     height: 596px;
     margin-top: 50px;
-    /* background-color: burlywood; */
+    max-width: 100%;
 }
